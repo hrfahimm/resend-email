@@ -37,7 +37,7 @@ export default function Home() {
                 }}
             >
 
-                <h2 className='text-4xl font-bold mb-8  '>Email Sende</h2>
+                <h2 className='text-4xl font-bold mb-8 text-black  '>Email Send</h2>
                 <form className="mt-10 flex flex-col group "
                     action={async formData => {
                         const { data, error } = await sendEmail(formData)
